@@ -1,0 +1,359 @@
+
+
+
+*,::after,::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: "Noto Sans Armenian";
+    font-style: normal;
+    font-weight: 400;
+    min-width: 320px;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    flex: 0 0 auto;
+}
+.container{
+    padding: 0 22px;
+}
+header{
+    padding: 22px 0 0;
+}
+main {
+    flex: 1 0 auto;
+}
+.img-logo{
+    display: flex;
+    margin-left: auto;
+}
+.regular-content{
+    max-width: 388px;
+    margin: 0 auto;
+    text-align: center;
+}
+.regular-main{
+    padding: 40px 0;
+}
+.gradient-main{
+    padding: 40px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.double-img{
+    display: flex;
+}
+.double-img img{
+    width: 50%;
+}
+
+
+
+.btn{
+    height: 64px;
+    padding: 0 12px;
+    border: none;
+    color: #FFF;
+    border-radius: 12px;
+    background: #00B085;
+    transition: background-color 1s ease;
+    cursor: pointer;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+.btn:hover{
+    background: #048162;
+}
+
+.btn:focus{
+    background: #048162;
+}
+
+.btn:active{
+    background: #048162;
+}
+
+.btn-small{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.icon-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+}
+
+.icon-button img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    max-width: 410px;
+    margin: 0 auto 30px;
+    padding-bottom: 40px !important;
+}
+.item-slider{
+    height: auto!important;
+}
+
+.slider-text{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+.button-holder{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 14px;
+    grid-row-gap: 14px;
+    margin: 0 auto 40px;
+}
+.buttons-wrap{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    max-width: 368px;
+    margin: 0 auto 35px;
+}
+.double-btn{
+    grid-column: span 2;
+}
+
+
+
+.link{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    display: block;
+}
+
+
+.regular-title{
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.regular-title.small-mode{
+    font-size: 26px;
+    letter-spacing: 0.3px;
+}
+
+.regular-text{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.regular-text.up-mode{
+    text-transform: uppercase;
+}
+
+.mail-link{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.gradient-content{
+    padding: 45px 38px;
+    background-image: url("../img/gradient-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+}
+.gradient-title{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.gradient-title span{
+    color: #FFFFFF;
+}
+.gradient-text{
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+.mb-32{
+    margin-bottom: 32px!important;
+}
+.mb-40{
+    margin-bottom: 40px!important;
+}
+.mb-46{
+    margin-bottom: 46px!important;
+}
+.mb-60{
+    margin-bottom: 60px!important;
+}
+.mb-68{
+    margin-bottom: 68px!important;
+}
+.pt-40{
+    padding-top: 40px!important;
+}
+
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: auto !important;
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    height: 18px !important;
+    width: 18px !important;
+    background-color:#C6C9CC !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #00B085 !important;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+}
+
+.footer{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.footer img{
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+.radio-holder{
+    display: flex;
+    flex-direction: column;
+    gap:26px;
+    margin-bottom: 44px;
+}
+.form-control {
+    color: #000;
+    text-align: center;
+    font-family: "Noto Sans Armenian";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:13px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #FFFFFF;
+    margin: 0;
+    font: inherit;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #C6C9CC;
+}
+
+input[type="radio"]:checked::before {
+    background: #048162;
+}
+
+@media (min-width: 480px) {
+    .regular-title.small-mode{
+        font-size: 30px;
+    }
+    .btn-small{
+        font-size: 20px;
+    }
+}
