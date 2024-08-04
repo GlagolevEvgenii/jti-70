@@ -241,6 +241,37 @@ button[disabled]{
     font-style: normal;
     font-weight: 500;
     line-height: 1;
+    -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.error .input{
+    color: #FC00FF;
+    font-family: "Noto Sans Armenian";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    border: 1px solid #FC00FF;
+}
+.error-text{
+    color: #FC00FF;
+    text-align: center;
+    font-family: "Noto Sans Armenian";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: none;
+}
+.error .error-text{
+    display: block;
 }
 .input::placeholder{
     color: #656565;
